@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=enFUCKYOU
+Comment=Frame-bordered ENF suppression and structured cover
+Exec=enFUCKYOU %f
+Type=Application
+Categories=AudioVideo;
+MimeType=audio/*;video/*;
+NoDisplay=true

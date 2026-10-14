@@ -1,2 +1,24 @@
-# enFUCKYOU
-Frame-bordered ENF suppressor and structured fake cover for audio/video. Tech demo to counter potential stalkers via Electrical Network Frequency analysis. Made with AI, untested in real-world conditions. Not guaranteed to protect you. If you feel you are in danger call local law enforcement. Creator is not responsible for your safety or liability.
+# enFUCKYOU v2 — Frame-bordered + structured cover
+
+Overlapping frames (default 4 s, 50 % overlap) so each frame borders into the next.
+- Analyzes instantaneous frequency peaks with bordering context.
+- Builds a continuous structured fake δf(t) (slow random-phase sinusoids + smoothed noise, realistic mHz scale).
+- Integrates the fake curve to phase and synthesizes low-level cover tones at 50/60 Hz + harmonics.
+- Overlap-adds the result with Hann windows for smooth edges.
+
+## Install
+```bash
+makepkg -si
+```
+
+## Usage
+```bash
+enFUCKYOU recording.mp4
+```
+Produces `recording_enFUCKYOU.mp4`.
+
+The overlap/bordering gives cleaner frequency estimates at frame edges and continuous phase in the cover.
+
+---
+
+**This was made with use of AI and not tested in real world conditions. Please test this software if you intend to use it. This software was made to counter potential stalkers, but is not in any way guaranteed to protect you. If you feel you are in danger call local law enforcement. The creator of this software is in no way responsible for your safety or liability, as this was intended to be a tech demo.**
