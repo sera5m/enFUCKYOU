@@ -21,4 +21,5 @@ The overlap/bordering gives cleaner frequency estimates at frame edges and conti
 
 ---
 
-**This was made with use of AI and not tested in real world conditions. Please test this software if you intend to use it. This software was made to counter potential stalkers, but is not in any way guaranteed to protect you. If you feel you are in danger call local law enforcement. The creator of this software is in no way responsible for your safety or liability, as this was intended to be a tech demo.**
+**This was made with use of AI and not tested in real world conditions. Please test this software if you intend to use it. This software was made to counter potential stalkers, but is not in any way guaranteed to protect you. If you feel you are in danger call local law enforcement. IF you're being tracked by law enforcement, that's not my problem, and don't involve me in your crimes. This is in no way a law enforcement evasion tool. Do not use this software to hide your crimes, as that is not it's intended use, and likely an additional crime, but i don't know. 
+The creator of this software is in no way responsible for your legal safety or liability, as this was intended to be a tech demo.**
